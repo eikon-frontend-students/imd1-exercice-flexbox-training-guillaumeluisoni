@@ -1,0 +1,25 @@
+.arena {
+  /* 🦊 Active flexbox sur l'arena. */
+  /* Ajoute un espace régulier entre les items. */
+}
+
+.item--one {
+  /* 🦊 Donne un ordre pour placer 1 en troisième position. */
+}
+
+.item--two {
+  /* 🦊 Donne un ordre pour placer 2 en première position. */
+}
+
+.item--three {
+  /* 🦊 Donne un ordre pour placer 3 en deuxième position. */
+}
+
+.item--four {
+  /* 🦊 Donne un ordre pour placer 4 en dernière position. */
+}
+
+/* 🟢 Auto-évaluation */
+/* 1) L'ordre visuel est-il bien 2 - 3 - 1 - 4 ? */
+/* 2) Ai-je évité toute modification HTML ? */
+/* 3) Les items gardent-ils leur taille et leur style ? */

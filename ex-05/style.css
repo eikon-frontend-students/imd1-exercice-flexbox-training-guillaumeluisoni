@@ -1,0 +1,13 @@
+.arena {
+  /* 🦊 Active flexbox sur l'arena. */
+  /* Ajoute un espace régulier entre les items. */
+}
+
+.item--grow {
+  /* 🦊 Fais grandir cet item pour qu'il prenne l'espace restant. */
+}
+
+/* 🟢 Auto-évaluation */
+/* 1) L'item B s'étire-t-il sans affecter A et C ? */
+/* 2) Ai-je utilisé un propriété Flexbox pour ceci et rien d'autre ? */
+/* 3) Le rendu reste-t-il stable quand la largeur change ? */

@@ -1,0 +1,197 @@
+/* Base commune pour tous les exercices. À ne pas modifier. */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif;
+  color: #111;
+  background: #f3f4f6;
+}
+
+.page {
+  max-width: 980px;
+  margin: 32px auto;
+  padding: 24px;
+  background: #ffffff;
+  border: 2px solid #111;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  font-size: 24px;
+}
+
+.panel {
+  margin-top: 16px;
+  padding: 16px;
+  background: #fafafa;
+  border: 2px solid #111;
+  border-radius: 8px;
+}
+
+.arena {
+  align-content: start;
+  min-height: 220px;
+  padding: 16px;
+  background: #ffffff;
+  border: 2px dashed #111;
+  border-radius: 6px;
+}
+
+.row {
+  padding: 12px;
+  border: 2px solid #111;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.item {
+  min-width: 72px;
+  min-height: 72px;
+  border: 2px solid #111;
+  border-radius: 8px;
+  background: #e5e7eb;
+  text-align: center;
+  padding: 24px 6px;
+  font-weight: 600;
+}
+
+.hint {
+  margin: 8px 0 0 0;
+  padding: 10px 12px;
+  background: #fef3c7;
+  border: 2px solid #111;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.checklist {
+  margin: 16px 0 0 0;
+  padding-left: 18px;
+  font-size: 14px;
+}
+
+.checklist li {
+  margin: 6px 0;
+}
+
+.ex-05 .arena,
+.ex-07 .arena {
+  min-height: auto;
+}
+
+/* Les solutions */
+.ex-01 .page.is-solved .arena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.ex-02 .page.is-solved .arena {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ex-03 .page.is-solved .arena {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 12px;
+}
+
+.ex-04 .page.is-solved .arena {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ex-05 .page.is-solved .arena {
+  display: flex;
+  gap: 12px;
+}
+
+.ex-05 .page.is-solved .item--grow {
+  flex-grow: 1;
+}
+
+.ex-06 .page.is-solved .arena {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ex-06 .page.is-solved .item--special {
+  align-self: end;
+}
+
+.ex-07 .page.is-solved .arena {
+  display: flex;
+  gap: 12px;
+}
+
+.ex-07 .page.is-solved .item--two {
+  order: 0;
+}
+
+.ex-07 .page.is-solved .item--three {
+  order: 1;
+}
+
+.ex-07 .page.is-solved .item--one {
+  order: 2;
+}
+
+.ex-07 .page.is-solved .item--four {
+  order: 3;
+}
+
+.ex-08 .page.is-solved .arena {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ex-08 .page.is-solved .row--top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.ex-08 .page.is-solved .nav-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: end;
+  align-items: center;
+  gap: 12px;
+}
+
+.ex-08 .page.is-solved nav {
+  display: flex;
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 12px;
+}
+
+.ex-08 .page.is-solved .row--bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ex-08 .page.is-solved .item--content {
+  flex: 1 1 220px;
+}

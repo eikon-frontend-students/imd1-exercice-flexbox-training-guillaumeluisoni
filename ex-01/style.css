@@ -1,0 +1,10 @@
+.arena {
+  /* 🦊 Active Flexbox sur l'arena. */
+  /* Centre les items sur les deux axes. */
+  /* Ajoute un espace régulier entre les items. */
+}
+
+/* 🟢 Auto-évaluation */
+/* 1) Ai-je utilisé réussi à tout faire en 3 lignes ? */
+/* 2) L'arena reste-t-elle propre quand je redimensionne la fenêtre ? */
+/* 3) Ai-je évité toute autre technique que Flexbox (margin, position, …) ? */
